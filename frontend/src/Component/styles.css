@@ -1,0 +1,93 @@
+.main-section{
+    /* background-color: rgb(201, 195, 195); */
+    background-image: -webkit-linear-gradient(0deg, #766dff, #88f3ff);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 2rem;
+}
+.form-div{
+    width: 450px;
+    height: 100%;
+    background-color:#ffffff ;
+    padding: 15px;
+    border-radius: 5px;
+    /* text-align: center; */
+    margin-bottom: 1rem;
+}
+input{
+width: 100%;
+border-radius: 10px;
+height: 30px;
+border: 2px solid lightblue;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+textarea{
+width: 100%;
+border-radius: 10px;
+border: 2px solid lightblue;
+margin-top: 10px;
+}
+label{
+    font-weight: 700;
+}
+.button-submit{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg, #766dff, #88f3ff);
+    color: white;
+    font-size: 20px;
+    border: 2px solid;
+    margin-top: 1rem;
+}
+.button-submit:hover{
+    color: black;
+    border: 2px solid black;
+}
+.error{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin: auto;
+    width: 80%;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-table th, .student-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .icon {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit-icon {
+    color: blue;
+  }
+  
+  .delete-icon {
+    color: red;
+  }
+  
